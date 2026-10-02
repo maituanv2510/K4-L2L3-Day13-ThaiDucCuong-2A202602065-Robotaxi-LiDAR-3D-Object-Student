@@ -1,0 +1,26 @@
+﻿python : /usr/local/lib/python3.11/site-packages/torch/functional.py:507: UserWarning: torch.meshgrid: in an upcoming 
+release, it will be required to pass the indexing argument. (Triggered internally at 
+../aten/src/ATen/native/TensorShape.cpp:3549.)
+At line:1 char:339
++ ... dent-amd64; python student-bundle.py run --bundle . --out ..\K4-DAY13 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (/usr/local/lib/...hape.cpp:3549.):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+frame=demo dataset=KITTI points=17238 z_ground=0.075 passes=identity
+delta=0 voxel=0.16 boxes=1 rear=0 mean_z=0.330 vehicles=1
+/usr/local/lib/python3.11/site-packages/torch/functional.py:507: UserWarning: torch.meshgrid: in an upcoming release, 
+it will be required to pass the indexing argument. (Triggered internally at 
+../aten/src/ATen/native/TensorShape.cpp:3549.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+frame=demo dataset=KITTI points=17238 z_ground=0.075 passes=identity
+delta=1.73 voxel=0.16 boxes=13 rear=0 mean_z=1.034 pedestrian=2 two-wheels=1 vehicles=10
+/usr/local/lib/python3.11/site-packages/torch/functional.py:507: UserWarning: torch.meshgrid: in an upcoming release, 
+it will be required to pass the indexing argument. (Triggered internally at 
+../aten/src/ATen/native/TensorShape.cpp:3549.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+frame=demo dataset=KITTI points=17238 z_ground=0.075 passes=identity
+delta=1.73 voxel=0.32 boxes=6 rear=0 mean_z=1.091 pedestrian=6
+Wrote 3 training-only cases to /out/qc-cases. TRAINING ONLY: not ground truth, not for CVAT import or quality claims.
+Offline A/B/C and QC completed: E:\Lab13\student-amd64\..\K4-DAY13-VinAI20K\output
